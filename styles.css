@@ -1,0 +1,91 @@
+body {
+    background-image: url("http://www.freehdimages.in/uploads/large/desktop-pictures-of-different-types-of-fruits-download.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#wrapper {
+    width: 700px;
+    margin: 50px auto 0px auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #7A4D30;
+}
+
+#header, #content {
+    margin: 50px auto 50px auto;
+    background-color: hsla(83, 0%, 100%, .75);
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#header {
+    line-height: 1.2em;
+    letter-spacing: .2em;
+}
+
+#aside {
+    text-transform: lowercase;
+    letter-spacing: 0em;
+}
+
+#content {
+    padding: 20px;
+}
+
+h1, h2, h3 { font-weight: normal; }
+
+h1 { text-shadow: 2px 2px 7px; }
+
+h3 {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 14px;
+}
+
+#tweet {
+    display: inline;
+}
+
+.twitter-share-button {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #00aced;
+    border-bottom: 2px solid #0084b4;
+    border-right: 2px solid #0084b4;
+    border-radius: 5px;
+    background-color: #00aced;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.twitter-share-button:hover {
+    background-color: #1dcaff;
+    border-color: #1dcaff;
+}
+
+.twitter-share-button:active { 
+    background-color: #0084b4; 
+    border-color: #0084b4;
+}
+
+#random {
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: #FFC300;
+    border-color: #FFC300;
+    border-radius: 5px;
+}
+
+#random:hover {
+    background-color: #FFDC30;
+    border-color: #FFDC30;
+}
+
+#random:active {
+    background-color: #D18E02;
+    border-color: #D18E02;
+}
+
+#random:focus { outline: 0; }
